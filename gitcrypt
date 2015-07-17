@@ -1,5 +1,7 @@
 #!/bin/bash
 
+shopt -s extglob
+
 readonly VERSION="0.3.0"
 readonly DEFAULT_CIPHER="aes-256-ecb"
 
